@@ -2,45 +2,30 @@
 
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
+A gestão de materiais é um tema cada vez mais abordado tendo em vista que, em tempos passados era comum lojas de materiais de construção seguirem com seus estoques controlados por anotações, documentos físicos e em alguns casos com planilhas. Nos tempos modernos é necessário uma gestão automatizada que facilite o dia-a-dia do gestor e possibilite uma integração fácil com diferentes plataformas.
+
+Com isso este projeto tem como objetivo criar uma ferramenta que possibilite a gestão de materiais de maneira automatizada e simplificada.
+
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+
+O problema acerca deste projeto é a dificuldade de catalogar, controlar e integrar o estoque de um comércio de materias ou um depósito de materiais. O gestor poderá catalogar seus materiais, controlar seu estoque e salvar notas fiscais dos materias constidos em seu estoque. 
 
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo deste projeto é trazer uma solução acessível e que auxilie na gestão de materiais de e estoques além de trazer praticidade ao gestor.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Criar a possibilidade de cadastro de materiais, categorias de materiais e anexar a nota fiscal desses materiais como anexo. 
+- Permitir extrair diretamente do banco de dados relação de materiais e relação de materiais por categoria.
+- Possibilitar o cadastro de usuário e validação de login na aplicação.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Em tempos modernos é importante que qualquer tipo de gestão seja executada de maneira inteligente e simples. Isso não é diferente quando se trata de gestão de um pequeno comércio ou estoque geral.
+Sendo assim, este projeto tem como justificativa a necessidade de um sistema simples, de fácil implantação, manutenção e utilização para gestão de materais. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público alvo desta solução é constituido por qualquer um que tenha a necessidade de executar a gestão, catalogação e controle de materiais de diversas categorias. Este sistema busca atender as necessidades de um comércio de materiais de pequeno porte.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)

@@ -1,78 +1,138 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+<table>
+   <tr>
+      <th>Foto</th>
+      <th>História</th>
+      <th>Aplicativos</th>
+      <th>Hábitos</th>
+   </tr>
+   <tr>
+      <td><img src="https://avatars.githubusercontent.com/u/9589046?v=4"/> </td>
+      <td>Adelio Loureiro tem 57 anos,  possui um comércio de materiais de construção e ocupa seu tempo tocando seu pequeno negócio e realizando vendas para moradores da região. Adelio organiza suas vendas usando planilhas excel. </td>
+      <td>
+         <ul>
+            <li>
+               Facebook
+            </li>
+            <li>
+               Whatsapp
+            </li>
+         </ul>
+      </td>
+      <td>
+         <ul>
+            <li>
+               Participa de eventos relacionados a construção civil.
+            </li>
+            <li>
+               Atua como gerente em sua pequena venda de materiais. 
+            </li>
+            <li>
+               Conhece a comunidade local por ser um comerciante que atua há muito tempo no mesmo local.
+            </li>
+         </ul>
+      </td>
+   </tr>
+     <tr>
+      <td><img src="https://avatars.githubusercontent.com/u/219272?v=4"/> </td>
+      <td>Wilson Guedes tem 34 anos,  engenheiro civil e trabalha como empresário no ramo de empreitadas de construção civil, Wilson é quem gerencia o estoque de sua equipe e é responsável por controlar entradas e saídas do estoque. </td>
+      <td>
+         <ul>
+            <li>
+               Instagram
+            </li>
+            <li>
+               Whatsapp
+            </li>
+            <li>
+               Trello
+            </li>
+         </ul>
+      </td>
+      <td>
+         <ul>
+            <li>
+               Lidera sua equipe durante o dia de trabalho.
+            </li>
+            <li>
+               Executa o controle de estoque de materiais utilizados por sua equipe. 
+            </li>
+            <li>
+               Faz a gerência financeira de sua empresa. 
+            </li>
+         </ul>
+      </td>
+   </tr>
+        <tr>
+      <td><img src="https://avatars.githubusercontent.com/u/6477448?v=4"/> </td>
+      <td>Pacheco Silva tem 32 anos e é  Professor e empresário, Pacheco realiza pequenas vendas de trabalhos artesanais que realiza nos horários vagos. </td>
+      <td>
+         <ul>
+            <li>
+               Google Planilhas
+            </li>
+            <li>
+               Whatsapp
+            </li>
+            <li>
+               LinkedIn
+            </li>
+         </ul>
+      </td>
+      <td>
+         <ul>
+            <li>
+               Atua como professor em uma escola de ensino fundamental.
+            </li>
+            <li>
+               Cria e vende pela internet objetos oriundos de sua atividade artesanal.  
+            </li>
+         </ul>
+      </td>
+   </tr>
+</table>
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
-## Histórias de Usuários
+ ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Adelio Loureiro como comerciante| Quer digitalizar seu estoque | Para trazer agilidade em suas vendas e ter um controle de estoque confiável.
+| Wilson Guedes como empresário| Quer um software simples para gestão de seus materiais| Facilitar a gestão de estoque para se dedicar às outras funções pertinentes à vida do empresário.
+| Pacheco Silva como artesão| Quer controlar seu estoque para a atividade de artesanato de maneira barata| Para que seja possível substituir o estoque feito em planilhas google por um software mais simples.|
+| Wilson Guedes como empresário| Quer visualizar a quantidade de materias cadastrados por categoria | Para gerencia-las da melhor forma possível.|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
-### Requisitos Funcionais
+## Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001 |O sistema deve conter uma tela de cadastro | ALTA | 
+|RF-002 |O sistema deve conter uma tela de login | ALTA |
+|RF-003 |Permitir que o usuário possa cadastrar uma categoria de material | ALTA | 
+|RF-004 |Permitir que o usuário possa cadastrar um material | ALTA |
+|RF-005 |Permitir que o usuário possa editar um material| ALTA |
+|RF-006 |Permitir que o usuário possa excluir um material| ALTA |
+|RF-007 |Permitir que o usuário possa listar todos os materiais cadastrados | ALTA |
+|RF-008 |Permitir que o usuário possa listar todos os materiais cadastrados por categoria | BAIXA |
+|RF-009 |Permitir que o usuário possa fazer o upload de notas fiscais dos materiais | MÉDIA |
+|RF-010 |O sistema deverá apresentar um log que contem alterações de usuários e os materiais alterados. | BAIXO |
+|RF-011 |O sistema deve apresentar mensagem de confirmação de cadastro de materiais. |  ALTA | 
 
 
-### Requisitos não Funcionais
+## Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O sistema ser desenvolvido utilizando componentes da biblioteca Boostrap | MÉDIA | 
+|RNF-002| A aplicação deverá ter o design amigável |  ALTA     | 
+|RNF-003| Deve processar requisições do usuário em no máximo 5s |  MÉDIA    | 
+|RNF-004| A aplicação deve ser responsivo |  ALTA     | 
+|RNF-005| A aplicação ficará disponivel 24 horas por dia |  ALTA     | 
+|RNF-006| O sistema será construído para rodar em ambiente web |  MÉDIA    | 
 
 ## Restrições
 
@@ -80,12 +140,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| O sistema não deve permitir o cadastro de materiais com código repetido |
+|02| O sistema só deve permitir cadastro de usuários utilizando senhas fortes  |
+|03| Apenas usuários administradores terão acesso ao menu de cadastro de categorias |
+|04| O sistema deve permitir apenas um cadastro por email de usuário |
+|05| O projeto deverá ser entregue até o final do semestre |
+|06| Primeira versão será lançada apenas Web |

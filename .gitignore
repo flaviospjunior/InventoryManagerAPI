@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/InventoryManagerAPI/.vs/InventoryManagerAPI/FileContentIndex
+/src/InventoryManagerAPI/.vs/InventoryManagerAPI/v17/.suo
+/src/InventoryManagerAPI/.vs/InventoryManagerAPI/v17/.futdcache.v1
+/src/InventoryManagerAPI/.vs/ProjectEvaluation
+/src/InventoryManagerAPI/bin/Debug/net6.0
+/src/InventoryManagerAPI/obj
