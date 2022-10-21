@@ -8,3 +8,11 @@
 /src/InventoryManagerAPI/.vs/ProjectEvaluation
 /src/InventoryManagerAPI/bin/Debug/net6.0
 /src/InventoryManagerAPI/obj
+/src/InventoryManager.Tests/obj/Debug
+/src/InventoryManagerAPI/.vs/InventoryManagerAPI/DesignTimeBuild
+/src/InventoryManagerAPI/packages
+/src/InventoryManagerAPI.Tests/bin/Debug/net6.0
+/src/InventoryManagerAPI.Tests/obj
+/src/TestInventoryManagerAPI/obj
+/src/TestInventoryManagerAPI/bin/Debug/net6.0
+/src/InventoryManagerAPI.Tests/InventoryManagerAPI.Tests.csproj

@@ -1,7 +1,7 @@
 ﻿using InventoryManagerAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace InventoryManager.Context
+namespace InventoryManagerAPI.Context
 {
     public class AppDbContext : DbContext
     {

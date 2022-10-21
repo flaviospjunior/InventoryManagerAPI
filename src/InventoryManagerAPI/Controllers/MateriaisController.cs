@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using InventoryManager.Context;
 using InventoryManagerAPI.Models;
+using InventoryManagerAPI.Context;
 
 namespace InventoryManagerAPI.Controllers
 {
@@ -25,7 +25,7 @@ namespace InventoryManagerAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Material>>> GetMateriais()
         {
-            return await _context.Materiais.ToListAsync();
+            return await _context.Materiais.AsNoTracking().ToListAsync();
         }
 
         // GET: api/Materiais/5
@@ -36,7 +36,7 @@ namespace InventoryManagerAPI.Controllers
 
             if (material == null)
             {
-                return NotFound();
+                return NotFound(String.Format("Material com ID {0} não encontrado.", id));
             }
 
             return material;
@@ -62,7 +62,7 @@ namespace InventoryManagerAPI.Controllers
             {
                 if (!MaterialExists(id))
                 {
-                    return NotFound();
+                    return NotFound(String.Format("Material com ID {0} não encontrado.", id));
                 }
                 else
                 {
